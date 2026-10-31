@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLATE: Long-Horizon API Selection Benchmark</title>
+  <meta name="description" content="SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in Enterprise E-commerce Tool Use.">
+  <meta property="og:title" content="SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in Enterprise E-commerce Tool Use">
+  <meta property="og:url" content="https://geshijoker.github.io/slate/">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1f2328;
+      --muted: #59636e;
+      --accent: #2f5bd3;
+      --card: #f6f8fa;
+      --border: #d1d9e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --fg: #e6edf3;
+        --muted: #9198a1;
+        --accent: #6e9bff;
+        --card: #161b22;
+        --border: #30363d;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 860px; margin: 0 auto; padding: 64px 16px 80px; }
+    header { text-align: center; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.2; margin: 0 0 8px; }
+    h1 .name { color: var(--accent); }
+    .subtitle { font-size: clamp(1.05rem, 2.2vw, 1.3rem); color: var(--muted); margin: 0 0 24px; }
+    .authors { margin: 0 0 4px; }
+    .venue { font-weight: 600; margin: 8px 0 28px; }
+    .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .btn {
+      display: inline-block; padding: 8px 18px; border-radius: 999px;
+      background: var(--fg); color: var(--bg); text-decoration: none; font-weight: 500;
+    }
+    .btn.soon { opacity: .45; pointer-events: none; }
+    section { margin-top: 56px; }
+    h2 { font-size: 1.4rem; text-align: center; margin: 0 0 16px; }
+    .notice {
+      margin-top: 40px; padding: 14px 18px; border: 1px dashed var(--border);
+      border-radius: 10px; text-align: center; color: var(--muted);
+    }
+    pre {
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      padding: 16px; overflow-x: auto; font-size: .85rem;
+    }
+    footer { margin-top: 64px; text-align: center; color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1><span class="name">SLATE</span></h1>
+      <p class="subtitle">A Large-Scale Benchmark for Long-Horizon API Selection in Enterprise E-commerce Tool Use</p>
+      <p class="authors">Authors coming soon</p>
+      <p class="venue">NeurIPS 2026</p>
+      <div class="links">
+        <a class="btn soon" href="#">Paper</a>
+        <a class="btn soon" href="#">Code</a>
+        <a class="btn soon" href="#">Dataset</a>
+        <a class="btn soon" href="#">Leaderboard</a>
+      </div>
+      <div class="notice">Code, data and full project details will be released here soon.</div>
+    </header>
+
+    <section>
+      <h2>Abstract</h2>
+      <p>Coming soon.</p>
+    </section>
+
+    <section>
+      <h2>BibTeX</h2>
+      <pre><code>@inproceedings{slate2026,
+  title     = {SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in Enterprise E-commerce Tool Use},
+  author    = {TBD},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
+}</code></pre>
+    </section>
+
+    <footer>&copy; 2026 SLATE authors</footer>
+  </main>
+</body>
+</html>
